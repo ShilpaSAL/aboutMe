@@ -1,0 +1,43 @@
+body {
+  background-image: url(code1.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.main {
+  /*main is first div class name */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40vh;
+  /* margin-bottom: 50%;  */
+  font-size: 4vh;
+}
+.hi {
+  color: rgb(227, 122, 122);
+}
+.shilpa {
+  color: rgb(25, 142, 220);
+}
+box{
+    height: 20px;
+    width: 25px;
+    border: 2px solid white;
+}
+.click_me {
+  /*click link class name */
+  /* background-color: rgb(25, 142, 220);
+    border-radius: 7px;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border:2px solid white; */
+
+}
+.click_me:hover {
+  transform: scale(1.2);
+}
+.div_click {
+  /* div class name of click me */
+  display: flex;
+  justify-content: center;
+}
