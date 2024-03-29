@@ -1,7 +1,7 @@
 body {
-  background-image: url(code1.jpg);
+  /* background-image: url("code1.jpg");
   background-size:cover;
-  background-repeat:no-repeat;
+  background-repeat:no-repeat; */
 }
 .main {
   /*main is first div class name */
@@ -13,33 +13,66 @@ body {
   font-size: 4vh;
 }
 .hi {
+  /* hi is a class name of first h1 */
   color: rgb(227, 122, 122);
 }
 .shilpa {
+  /* span claas name is shilpa */
   color: rgb(25, 142, 220);
 }
-box{
-    height: 20px;
+/* .box{ */
+/* box is a class name button container */
+/* height: 20px;
     width: 25px;
-    border: 2px solid white;
-}
-.click_me {
-  /*click link class name */
-  /* background-color: rgb(25, 142, 220);
-    border-radius: 7px;
-    font-size: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border:2px solid white; */
-    /* /hgdggd */
-
-}
-.click_me:hover {
-  transform: scale(1.2);
-}
+    border: 2px solid white; 
+} */
 .div_click {
   /* div class name of click me */
   display: flex;
   justify-content: center;
   /* /ghdggd? */
+}
+.click {
+  /*click class name of click button*/
+  border: 2px solid white;
+  border-top-left-radius: 13px;
+  border-bottom-right-radius: 13px;
+  padding: 10px;
+  background-color: rgb(7, 126, 217);
+  text-decoration: none;
+  font-size: larger;
+  color: white;
+}
+.nav {
+  border: 2px solid black;
+  display: flex;
+  height: 60px;
+  justify-content: right;
+  padding-top: 20px;
+  background-color: rgb(84, 82, 103);
+
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.on_box{
+width: 35%;
+height: 100vh;
+border: 2px solid black;
+background-color: pink;
+}
+.img{
+  width:250px ;
+  height: 260px;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.link_box{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+
 }
